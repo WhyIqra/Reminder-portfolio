@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Day Project</title>
+    <style>
+        body{
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: aquamarine;
+            overflow: hidden;
+            background-image: url('3.6 getDay\image.jpg');
+
+         
+        }
+    
+        .day{
+           text-align: center;
+           
+        }
+        .rem{
+            text-align: center;
+            font-size: large;
+        }
+        #get{
+            text-shadow: 2px 0 rgb(241, 238, 238);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="day" id="get">Reminder For a particular day</h1>
+    <p class ="rem">For Example, if it's a Weekend then reminder will be "Hey, it's a WeekEnd, it's time to have fun" otherwise "Hey, it's a Week Day, it's time to work hard" </p>
+    <h1 class="day">Hey, it's <%= dayType %>,<%= advice %>!</h1>
+</body>
+</html>
